@@ -1293,7 +1293,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2034794397}
   - component: {fileID: 2034794398}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: floor
   m_TagString: ground
   m_Icon: {fileID: 0}
@@ -1461,8 +1461,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9ebe91bb52edd9439e167b866d78741, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
-  jump: 40
+  speed: 10
+  jump: 75
   inGround: {fileID: 34180251}
   groundLayer:
     serializedVersion: 2
@@ -1482,7 +1482,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 10
+  m_GravityScale: 30
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
